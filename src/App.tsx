@@ -1,5 +1,7 @@
+import { DragDropContext } from 'react-beautiful-dnd';
+
 function App() {
-  return <div className='App'></div>;
+  return <DragDropContext></DragDropContext>;
 }
 
 export default App;
